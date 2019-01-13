@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*----------------------------------------
+
+	Mac Safari
+
+	- default setting
+	- font
+
+-----------------------------------------*/
+
+/*----------------------------------------
+	default setting
+-----------------------------------------*/
+
+input, textarea, select {
+	font-family:
+  	"Osaka","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",
+		sans-serif;
+}
+
+/*----------------------------------------
+	font
+-----------------------------------------*/
+
+body {
+	font-size: 75%;
+	line-height: 1.45;
+	font-family:
+  	"Osaka","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",
+		sans-serif;
+}
+
+.font_large {
+	font-size: 115%;
+	line-height: 1.4;
+}
+
+.font_small {
+	line-height: 1.45;
+}

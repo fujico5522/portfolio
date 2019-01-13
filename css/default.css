@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/*----------------------------------------
+
+	Default CSS (Last Update 2008.06.28)
+
+	- default setting
+	- body setting
+	- link setting
+	- clearfix
+
+-----------------------------------------*/
+
+/*----------------------------------------
+	default setting
+-----------------------------------------*/
+
+body, div, dl, dt, dd, th, td, ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, form {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, strong, em, p {
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+}
+
+th {
+	text-align: left;
+	font-weight: normal;
+}
+
+li {
+	list-style: none;
+	vertical-align: bottom;
+}
+
+li img {
+	vertical-align: top;
+}
+
+img, table {
+	border: 0;
+}
+
+hr {
+	display: none;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+input, textarea, select {
+	color: #333333;
+	font-size: 100%;
+	font-family:
+		"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka",
+		"メイリオ","Meiryo","ＭＳ Ｐゴシック","MS P Gothic",
+		sans-serif;
+}
+
+/*----------------------------------------
+	body setting
+-----------------------------------------*/
+
+body {
+	background-color: #f0eeec;
+	color: #333333;
+	font-family:
+		"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka",
+		"メイリオ","Meiryo","ＭＳ Ｐゴシック","MS P Gothic",
+		sans-serif;
+}
+
+/*----------------------------------------
+	link setting
+-----------------------------------------*/
+
+a:link,
+a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #ff6000;
+	text-decoration: none;
+}
+
+/*----------------------------------------
+	clearfix
+-----------------------------------------*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	font-size: 0.1px;
+	line-height: 0.1px;
+}
+
+.clearfix {
+	display: inline-block;
+	position: relative; /* DW */
+}
+
+/* Hides from IE-mac ¥*/
+.clearfix {
+	display: block; 
+}
+/* End hide from IE-mac */

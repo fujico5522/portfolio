@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*----------------------------------------
+
+	Windows Opera
+
+	- default setting
+	- font
+
+-----------------------------------------*/
+
+/*----------------------------------------
+	default setting
+-----------------------------------------*/
+
+li, li img {
+	vertical-align: baseline;
+}
+
+html {
+	overflow: auto;
+}
+
+input, textarea, select {
+	font-family: inherit;
+}
+
+/*----------------------------------------
+	font
+-----------------------------------------*/
+
+body {
+	font-size: 80%;
+}
+
+.font_large {
+	font-size: 110%;
+	line-height: 1.4;
+}
+
+.font_small {
+	font-size: 80%;
+}

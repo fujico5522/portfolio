@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*----------------------------------------
+
+	Mac Opera
+
+	- default setting
+	- font
+
+-----------------------------------------*/
+
+/*----------------------------------------
+	default setting
+-----------------------------------------*/
+
+li, li img {
+	vertical-align: baseline;
+}
+
+/*----------------------------------------
+	font
+-----------------------------------------*/
+
+body {
+	font-size: 80%;
+	line-height: 1.45;
+}
+
+.font_large {
+	font-size: 120%;
+	line-height: 1.4;
+}
+
+.font_small {
+	font-size: 90%;
+	line-height: 1.45;
+}

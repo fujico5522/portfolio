@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*----------------------------------------
+
+/*----------------------------------------
+	wrapper
+-----------------------------------------*/
+
+#wrapper {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#nav {
+	width: 160px;
+	float: left;
+}
+#nav h1 {
+	margin-bottom: 30px;
+}
+#nav ul li {
+	margin-bottom: 20px;
+	text-align: center;
+}
+#nav ul li.active {
+	color: #ff6000;
+	font-weight: bold;
+}
+
+#main {
+	width: 770px;
+	float: right;
+	padding: 63px 0 60px;
+}
+#main h2 {
+	font-size: 140%;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+#main p {
+	margin-bottom: 40px;
+}
+#main p.img {
+	border: 2px solid #fff;
+}
+#main p.bottom {
+	margin-bottom: 60px;
+}
+
+#brass {
+	background-color: #000;
+}
+p.center {
+	text-align: center;
+}
